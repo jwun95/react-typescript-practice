@@ -1,13 +1,15 @@
-import ButtonTest from './pages/ButtonTest'
-import InputTest from './pages/InputTest'
-import ModalTest from './pages/ModalTest'
+import UseOrCreateTest from './pages/UseOrCreateTest';
+import Memo from './pages/Memo';
+import Callback from './pages/Callback';
+import HighOrderCallback from './pages/HighOrderCallback';
 
 export default function App() {
   return (
-    <main>
-      <ModalTest />
-      <InputTest />
-      <ButtonTest />
-    </main>
-  )
+    <div>
+      <HighOrderCallback />
+      <Callback />
+      <Memo />
+      <UseOrCreateTest />
+    </div>
+  );
 }
