@@ -1,13 +1,19 @@
-import ClassLifecycle from './pages/ClassLifecycle';
-import WindowResizeTest from './pages/WindowResizeTest';
-import FetchTest from './pages/FetchTest';
+import ClickTest from './pages/ClickTest';
+import FileDrop from './pages/FileDrop';
+import InputFocusTest from './pages/InputFocusTest';
+import InputValueTest from './pages/InputValueTest';
+import ForwardRefTest from './pages/ForwardRefTest';
+import ValidatableInputTest from './pages/ValidatableInputTest';
 
 export default function App() {
   return (
     <main>
-      <FetchTest />
-      <WindowResizeTest />
-      <ClassLifecycle />
+      <ClickTest />
+      <FileDrop />
+      <InputFocusTest />
+      <InputValueTest />
+      <ForwardRefTest />
+      <ValidatableInputTest />
     </main>
   );
 }
